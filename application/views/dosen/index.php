@@ -9,7 +9,7 @@
                <?php } ?>
                <?= $this->session->flashdata('pesan'); ?>
                <a class="btn mb-2" style="background-color:lightsalmon" href="<?= base_url('dosen/tambah'); ?>">Tambah Data</a>
-               <table class="table table-responsive table-hover">
+               <table class="table table-hover">
                     <thead>
                          <tr class="table-danger">
                               <th>#</th>
@@ -39,8 +39,8 @@
                                    <td><?= $dos['stts_aktif']; ?></td>
                                    <td><?= $dos['ikatankerja']; ?></td>
                                    <td>
-                                        <a href=" <?= base_url('dosen/edit/') . $dos['id']; ?>" class="badge badge-info"><i class="fas fa-edit"></i> Ubah</a>
-                                        <a href="<?= base_url('dosen/hapus/') . $dos['id']; ?>" onclick="return confirm('Kamu yakin akan menghapus <?= $dos['nama']; ?> ?');" class="badge badge-danger"><i class="fas fa-trash"></i> Hapus</a>
+                                        <a href=" <?= base_url('dosen/edit/') . $dos['id']; ?>" class="badge badge-info"><i class="far fa-edit fa-spin"></i> Ubah</a>
+                                        <a href="<?= base_url('dosen/hapus/') . $dos['id']; ?>" onclick="return confirm('Kamu yakin akan menghapus <?= $dos['nama']; ?> ?');" class="badge badge-danger"><i class="far fa-trash"></i>Hapus</a>
                                    </td>
                               </tr>
                          <?php } ?>

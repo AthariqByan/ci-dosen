@@ -11,6 +11,7 @@
      <title>MyDosen</title>
 
      <!-- Custom fonts for this template-->
+     <script src="https://kit.fontawesome.com/08d1c6b904.js" crossorigin="anonymous"></script>
      <link href="<?= base_url('assets/'); ?>vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
      <link href="<?= base_url('assets/'); ?>datatable/datatables.css" rel="stylesheet" type="text/css">
      <script type="text/javascript" src="<?= base_url('assets/'); ?>datatable/jquery.dataTables.js'; ?>"></script>
