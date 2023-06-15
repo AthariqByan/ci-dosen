@@ -62,7 +62,7 @@
                                              <div class="d-flex justify-content-center">
                                                   <div>
                                                        <input type="button" class="btn btn-dark" style="background-color: #EE7879;" value="Kembali" onclick="window.history.go(-1)">
-                                                       <button type="submit" class="btn btn-dark" style="background-color: #4AD7D1;"><i class="fas fa-plus-circle"></i> Tambah</button>
+                                                       <button type="submit" class="btn btn-dark" style="background-color: #4AD7D1;"><i class="fas fa-plus-circle fa-spin"></i> Tambah</button>
                                                   </div>
                                              </div>
                                         </form>

@@ -63,9 +63,9 @@
                                         </select>
                                     </div>
                                     <div>
-                                        <div>
-                                            <input type="button" class="form-control form-control-user btn btn-dark" style="background-color: #EE7879;" value="Kembali" onclick="window.history.go(-1)">
-                                            <input type="submit" class="form-control form-control-user btn btn-dark" style="background-color: #4AD7D1;" value="Update">
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-dark" style="background-color: #EE7879;" onclick="window.history.back(-1)"><i class="fas fa-ban fa-spin"></i> Close</button>
+                                            <button type="submit" class="btn btn-dark" style="background-color: #4AD7D1;"><i class="fas fa-plus-circle fa-spin"></i> Update</button>
                                         </div>
                                     </div>
                                 </form>

@@ -18,7 +18,7 @@ class ModelDosen extends CI_Model
         return $this->db->get_where('dosen', $where);
     }
 
-    public function editDataDosen($data = null, $where = null)
+    public function editDataDosen($where, $data)
     {
         $this->db->update('dosen', $data, $where);
     }
